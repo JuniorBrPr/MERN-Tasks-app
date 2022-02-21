@@ -22,7 +22,7 @@ function GoalForm(){
                     <input type="text" name='text' id='text' value={text} onChange={(e) => setText(e.target.value)}/>
                     <div className="form-group">
                         <button className="btn btn-block" type='submit'>
-                            Add Goal
+                            Voeg werkervaring toe
                         </button>
                     </div>
                 </div>

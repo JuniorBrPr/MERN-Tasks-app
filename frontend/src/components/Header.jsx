@@ -18,7 +18,7 @@ function Header() {
     return (
         <header className='header'>
             <div className='logo'>
-                <Link to='/'>GoalSetter</Link>
+                <Link to='/'>TalentMapp</Link>
             </div>
             <ul>
                 {user ? (
@@ -36,7 +36,7 @@ function Header() {
                         </li>
                         <li>
                             <Link to='/register'>
-                                <FaUser /> Register
+                                <FaUser /> Registreren
                             </Link>
                         </li>
                     </>

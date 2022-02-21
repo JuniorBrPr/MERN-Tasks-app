@@ -36,8 +36,8 @@ function Dashboard() {
     return (
         <>
             <section className="heading">
-                <h1>Welcome {user && user.name}</h1>
-                <p>Goals dashboard</p>
+                <h1>Welkom {user && user.name}</h1>
+                <p>TalentMapp</p>
             </section>
             <GoalForm/>
             <section className="content">
@@ -47,7 +47,7 @@ function Dashboard() {
                             <GoalItem key={goal._id} goal={goal}/>
                         ))}
                     </div>
-                ) : (<h3>You have not set any goals</h3>)}
+                ) : (<h3>Nog geen werkervaring toegevoegd</h3>)}
             </section>
         </>
     )

@@ -46,7 +46,7 @@ function Register() {
         e.preventDefault()
 
         if (password !== password2) {
-            toast.error('Passwords do not match')
+            toast.error('Wachtwoorden komen niet overeen')
         } else {
             const userData = {
                 name,
@@ -66,9 +66,9 @@ function Register() {
         <>
             <section className='heading'>
                 <h1>
-                    <FaUser /> Register
+                    <FaUser /> Registreren
                 </h1>
-                <p>Please create an account</p>
+                <p>Maak een account aan</p>
             </section>
 
             <section className='form'>
@@ -80,7 +80,7 @@ function Register() {
                             id='name'
                             name='name'
                             value={name}
-                            placeholder='Enter your name'
+                            placeholder='Voer je naam in'
                             onChange={onChange}
                         />
                     </div>
@@ -91,7 +91,7 @@ function Register() {
                             id='email'
                             name='email'
                             value={email}
-                            placeholder='Enter your email'
+                            placeholder='Voer je email in'
                             onChange={onChange}
                         />
                     </div>
@@ -102,7 +102,7 @@ function Register() {
                             id='password'
                             name='password'
                             value={password}
-                            placeholder='Enter password'
+                            placeholder='Voer je wachtwoord in'
                             onChange={onChange}
                         />
                     </div>
@@ -113,13 +113,13 @@ function Register() {
                             id='password2'
                             name='password2'
                             value={password2}
-                            placeholder='Confirm password'
+                            placeholder='Bevestig je wachtwoord'
                             onChange={onChange}
                         />
                     </div>
                     <div className='form-group'>
                         <button type='submit' className='btn btn-block'>
-                            Submit
+                            Afronden
                         </button>
                     </div>
                 </form>
